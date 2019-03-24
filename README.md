@@ -2,24 +2,24 @@
 
 This is a project to manage Students. Students can be managed by "Admins" after Successfull Login.
 
-Operations Done by Admins:-
-*Admin Can "Add a New Student".
-*Admin Can "Delete an Existing Student".
-*Admin Can "Update Details of an Existing Student".
-*Admin Can "Search for an Existing Student".
-*Admin Can "Display All Students Details".
+Operations Done by Admins:-\
+*Admin Can "Add a New Student".\
+*Admin Can "Delete an Existing Student".\
+*Admin Can "Update Details of an Existing Student".\
+*Admin Can "Search for an Existing Student".\
+*Admin Can "Display All Students Details".\
+\
+*Admin Can "Add a New Admin".\
+*Admin Can "Delete an Existing Admin".\
+*Admin Can "Update Details of an Existing Admin".\
+*Admin Can "Search for an Existing Admin".\
+*Admin Can "Display All Students Admin".\
+\
+Database and Tables used:-\
+*Database Name:- "Student".\
+*Tables Name:- "Student" & "Admin".\
 
-*Admin Can "Add a New Admin".
-*Admin Can "Delete an Existing Admin".
-*Admin Can "Update Details of an Existing Admin".
-*Admin Can "Search for an Existing Admin".
-*Admin Can "Display All Students Admin".
-
-Database and Tables used:-
-*Database Name:- "Student".
-*Tables Name:- "Student" & "Admin".
-
-Structure of Tables:-
+Structure of Tables:-\
 
                             Student Table
 +----------+-------------+------+-----+---------+----------------+
