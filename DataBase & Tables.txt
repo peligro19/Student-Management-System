@@ -1,0 +1,44 @@
+!!!  Commands Used  !!!
+
+Create a database named “Student”.
+  *Create database student;
+  *Show databses;
+  *Use Student;
+
+Create Two Tables:-
+1st Table Named “Admin”
+Structure of the Admin Table
+  *desc admin;
++----------+-------------+------+-----+---------+----------------+
+| Field    | Type        | Null | Key | Default | Extra          |
++----------+-------------+------+-----+---------+----------------+
+| id       | int(11)     | NO   | PRI | NULL    | auto_increment |
+| email    | varchar(50) | YES  |     | NULL    |                |
+| password | varchar(50) | YES  |     | NULL    |                |
+| name     | varchar(50) | YES  |     | NULL    |                |
++----------+-------------+------+-----+---------+----------------+
+
+
+2nd Table Named “Student”
+Structure of the Student Table
+  *desc student;
++---------------+-------------+------+-----+---------+----------------+
+| Field         | Type        | Null | Key | Default | Extra          |
++---------------+-------------+------+-----+---------+----------------+
+| id            | int(11)     | NO   | PRI | NULL    | auto_increment |
+| stdName       | varchar(50) | YES  |     | NULL    |                |
+| stdFatherName | varchar(50) | YES  |     | NULL    |                |
+| stdBlood      | varchar(50) | YES  |     | NULL    |                |
+| stdPhone      | varchar(50) | YES  |     | NULL    |                |
+| stdCity       | varchar(25) | YES  |     | NULL    |                |
+| class         | int(11)     | YES  |     | NULL    |                |
++---------------+-------------+------+-----+---------+----------------+
+
+
+To see the data of the tables.
+  *select * from student;
+  *select * from admin;
+
+For Master Login use:-
+  Email:- sumitsingh@gmail.com
+  Password:- sumit123
