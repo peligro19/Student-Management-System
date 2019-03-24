@@ -18,28 +18,29 @@ Operations Done by Admins:-\
 Database and Tables used:-\
 *Database Name:- "Student".\
 *Tables Name:- "Student" & "Admin".\
-
+\
 Structure of Tables:-\
-
-                            Student Table
-+----------+-------------+------+-----+---------+----------------+
-| Field    | Type        | Null | Key | Default | Extra          |
-+----------+-------------+------+-----+---------+----------------+
-| id       | int(11)     | NO   | PRI | NULL    | auto_increment |
-| email    | varchar(50) | YES  |     | NULL    |                |
-| password | varchar(50) | YES  |     | NULL    |                |
-| name     | varchar(50) | YES  |     | NULL    |                |
-+----------+-------------+------+-----+---------+----------------+
-
-                             Admin Table
-+---------------+-------------+------+-----+---------+----------------+
-| Field         | Type        | Null | Key | Default | Extra          |
-+---------------+-------------+------+-----+---------+----------------+
-| id            | int(11)     | NO   | PRI | NULL    | auto_increment |
-| stdName       | varchar(50) | YES  |     | NULL    |                |
-| stdFatherName | varchar(50) | YES  |     | NULL    |                |
-| stdBlood      | varchar(50) | YES  |     | NULL    |                |
-| stdPhone      | varchar(50) | YES  |     | NULL    |                |
-| stdCity       | varchar(25) | YES  |     | NULL    |                |
-| class         | int(11)     | YES  |     | NULL    |                |
-+---------------+-------------+------+-----+---------+----------------+
+\
+                            Student Table\
++----------+-------------+------+-----+---------+----------------+\
+| Field    | Type        | Null | Key | Default | Extra          |\
++----------+-------------+------+-----+---------+----------------+\
+| id       | int(11)     | NO   | PRI | NULL    | auto_increment |\
+| email    | varchar(50) | YES  |     | NULL    |                |\
+| password | varchar(50) | YES  |     | NULL    |                |\
+| name     | varchar(50) | YES  |     | NULL    |                |\
++----------+-------------+------+-----+---------+----------------+\
+\
+                             Admin Table\
++---------------+-------------+------+-----+---------+----------------+\
+| Field         | Type        | Null | Key | Default | Extra          |\
++---------------+-------------+------+-----+---------+----------------+\
+| id            | int(11)     | NO   | PRI | NULL    | auto_increment |\
+| stdName       | varchar(50) | YES  |     | NULL    |                |\
+| stdFatherName | varchar(50) | YES  |     | NULL    |                |\
+| stdBlood      | varchar(50) | YES  |     | NULL    |                |\
+| stdPhone      | varchar(50) | YES  |     | NULL    |                |\
+| stdCity       | varchar(25) | YES  |     | NULL    |                |\
+| class         | int(11)     | YES  |     | NULL    |                |\
++---------------+-------------+------+-----+---------+----------------+\
+\
